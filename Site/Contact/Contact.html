@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../DefaultRules/Default.css">
+    <link rel="stylesheet" type="text/css" href="Contact.css">
+    <script src="Contact.js"></script>
+</head>
+<body>
+<div class="menu">
+    <ul>
+        <li><a href="../Home/Home.html">home</a></li>
+        <li><a href="../Education/Education.html">education</a></li>
+        <li><a href="../Experience/Experience.html">experience</a></li>
+        <li><a href="../Gallery/Gallery.html">gallery</a></li>
+        <li><a href="Contact.html" class="selected">contact</a></li>
+    </ul>
+</div>
+    
+<!--contact form-->
+
+<div class="title">Get in touch</div>
+
+<!--hidden alert-->
+<div class="hiddenAlert"  id="alert">
+</div>
+    
+<!--name-->
+<div class="contactForm">
+    <label for="name" id="labelName">*Name:</label>
+    <input id="name" type="text" placeholder="Your name" maxlength="60" onkeyup="validateName()" required/>
+</div>
+
+<!--email-->
+<div class="contactForm">
+    <label for="email" id="labelEmail">*Email:</label>
+    <input name ="email" id="email" type="text" placeholder="Your email" maxlength="60"  onkeyup="validateEmail()" required/>
+</div>
+
+<!--phone number, 10 digits limit-->
+<div class="contactForm">
+    <label for="phone" id="labelPhone">*Phone number:</label>
+    <input name="phone" id="phone" type="text" placeholder="(XXX)-XXX-XX-XX" maxlength="10" onkeyup="validatePhone()" required />
+</div>
+
+
+<!--Free text field-->
+<div class="contactForm">
+    <label id="labelMessage">*Leave your message here:</label>
+    <textarea id ="message" 
+                  rows="4"
+                  cols="50"
+                  type="text"
+                  maxlength="500"
+                  placeholder="Limit 500 characters"
+                  onkeyup="validateMessage()"required
+              ></textarea>
+</div>
+
+<button onclick="validateForm()"><span>Submit </span></button>
+<div id="replyDiv"></div>
+
+
+
+</body>
+
+</html>

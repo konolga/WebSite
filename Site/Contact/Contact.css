@@ -1,0 +1,85 @@
+﻿/* Style the submit button with a specific background color etc */
+button {
+  display: block;
+  border-radius: 4px;
+  background-color: darkseagreen;
+  border: none;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+    margin-left: 40px;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: antiquewhite;
+}
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+button:hover span {
+  padding-right: 25px;
+}
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Add a background color and some padding around the form */
+.contactForm {
+display: block;
+border: 2px ridge darkseagreen;
+border-radius: 8px;
+padding: 10px;
+margin: 5px;
+width: 250px;
+background-color: mediumpurple;
+font-size: 18px;
+
+}
+
+
+input, textarea {
+display: block;
+border: 2px solid darkseagreen;
+border-radius: 8px;
+border-style: ridge;
+width: 240px;
+color: indigo;
+font-size: 18px;
+background: antiquewhite;
+}
+
+input {
+height: 30px;
+}
+textarea {
+height: 200px;
+}
+::-webkit-input-placeholder {
+color: darkseagreen;
+}
+
+
+/*Create An Alert Message*/
+#alert {
+    background-color: coral;  
+    height: 30px;
+}
+.hiddenAlert {
+   display: none; 
+}
+.warningText {
+   color: coral; 
+}
+

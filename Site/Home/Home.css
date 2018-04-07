@@ -1,0 +1,29 @@
+﻿
+
+/* Slideshow container */
+.slideshow-container {
+  position:center;
+  margin: auto;
+
+}
+
+
+.mySlides {
+   max-width: 400px;
+    max-height: 400px;
+    margin: auto;
+
+}
+
+/* The dots indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: darkseagreen;
+  border-radius: 50%;
+  display: inline-block;
+}
+.active {
+  background-color:mediumpurple;
+}

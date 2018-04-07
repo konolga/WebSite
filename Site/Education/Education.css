@@ -1,0 +1,12 @@
+﻿table {
+
+  border: 3px double darkseagreen;
+  float: left;
+  
+  
+}
+th, td, tr {
+    margin: 0 10px 0 0;
+    padding: 10px;
+}
+

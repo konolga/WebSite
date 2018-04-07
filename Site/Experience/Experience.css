@@ -1,0 +1,29 @@
+﻿dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+  border: 3px double darkseagreen;
+
+}
+
+dt {
+  font-weight: bold;
+  float: left;
+    padding: 0;
+  margin: 0 10px 0 0;
+
+  }
+
+  dt::after {
+    content: ":";
+
+  }
+  dd {
+      margin: 0 0 10px 110px;
+
+  }
+.Description {
+    display: list-item;
+    list-style-type: disc; 
+  }
+ 

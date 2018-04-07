@@ -1,0 +1,34 @@
+﻿        img {
+        border: 2px solid darkseagreen;
+        border-radius: 8px;
+        margin: 24px;
+        padding: 6px;
+        cursor: pointer;
+        }
+
+        .big {
+            width: 500px;
+            height: 800px;
+
+        }
+
+        .small {
+            width: 120px;
+            height: 200px;
+        }
+
+        #gallery {
+            background-color: mediumpurple;
+            border-radius: 8px;
+            width: 600px;
+            margin: auto;
+
+        }
+
+        #view {
+            background-color: darkseagreen;
+            border-radius: 8px;
+            width: 560px;
+            margin: auto;
+            
+        }
